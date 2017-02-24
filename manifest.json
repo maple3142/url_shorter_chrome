@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "url shorter",
+  "description": "url shorter",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "clipboardWrite",
+    "https://api-ssl.bitly.com/v3/",
+    "http://tinyurl.com/api-create.php",
+    "http://ppt.cc/gen.php",
+    "https://is.gd/create.php"
+  ]
+}
